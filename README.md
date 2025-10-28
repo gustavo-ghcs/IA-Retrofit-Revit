@@ -8,7 +8,8 @@
 
 Repositório oficial do Trabalho de Conclusão de Curso (TCC) de **Gustavo de Hollanda Cavalcanti Soares**, para o curso de Sistemas de Informação do Centro de Informática (CIn) da Universidade Federal de Pernambuco (UFPE).
 
-* **Orientadora:** Prof(a). Rachel Perez Palha
+* **Orientador:** Prof. Adiel Teixeira de Almeida Filho
+* **Coorientadora:** Prof(a). Rachel Perez Palha
 
 ---
 
