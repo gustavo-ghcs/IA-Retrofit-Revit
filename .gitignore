@@ -213,3 +213,6 @@ __marimo__/
 *Data/
 
 Interface/retrieval/tf_train.npy
+
+venv/
+venv/*
