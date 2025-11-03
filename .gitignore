@@ -211,3 +211,5 @@ __marimo__/
 *socket.io*/
 
 *Data/
+
+Interface/retrieval/tf_train.npy
