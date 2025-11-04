@@ -5,56 +5,6 @@ $(function () {
     var roomSelect = 0;
     var mouseDown = false;
     var createLinew = false;
-/*
-    var leftsvg = document.getElementById('LeftGraphSVG');
-    leftsvg.oncontextmenu = function() {
-        return false;
-    }
-
-    $('#LeftGraphSVG').on('mousedown',function(e){
-
-        let selectX = e.clientX - leftsvg.getBoundingClientRect().left;
-        let selectY = e.clientY - leftsvg.getBoundingClientRect().top;
-
-        var arr,reg=new RegExp("(^| )ifSelectRoom=([^;]*)(;|$)");
-        if(arr=document.cookie.match(reg)){
-            roomSelect = arr[2];
-        }
-        else{
-            roomSelect = 0;
-        }
-
-        if(!generate && roomSelect == 1){
-            //绘制点
-            clearHighLight();
-
-            var curRoom = "NULL";
-            var curIndex = -1;
-
-            arr,reg=new RegExp("(^| )RoomType=([^;]*)(;|$)");
-
-            if(arr=document.cookie.match(reg)){
-                curRoom = arr[2];
-            }
-
-            arr,reg=new RegExp("(^| )CurNum=([^;]*)(;|$)");
-
-            if(arr=document.cookie.match(reg)){
-                curIndex = arr[2];
-            }
-            var curPoints = d3.select("body").select("#LeftGraphSVG").selectAll("circle");
-
-            var point = d3.select("body").select("#LeftGraphSVG").append("circle").attr("fill",roomcolor(curRoom)).attr("r",5)
-                .attr("stroke","#000000").attr("stroke-width",2).attr("id","TransCircle"+curIndex+"_"+curRoom).on("mousedown",circle_mousedown)
-                .on("mousemove",circle_mousemove).on("mouseup",circle_mouseup)
-				.attr("cx",selectX/2).attr("cy",selectY/2).attr("class","TransCircle").append("title")//此处加入title标签
-            .text(curRoom);
-
-
-            roomSelect = false;
-            document.cookie = "ifSelectRoom=0";
-        }
-    })*/
 
     $('#RightSVG').on('mousedown',function(e){
         console.log("Right!");
